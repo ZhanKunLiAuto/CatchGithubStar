@@ -1,0 +1,46 @@
+{
+  "topics": [
+    {
+      "id": "autonomous-driving",
+      "label": "自动驾驶",
+      "keywords": ["autonomous driving", "self-driving", "self driving cars", "autonomous vehicle", "autonomous vehicles", "automated driving", "nuScenes", "Waymo Open Dataset", "Alpamayo", "ReCogDrive", "自动驾驶"],
+      "githubQuery": "autonomous-driving",
+      "hfQueries": ["autonomous-driving", "self-driving", "nuscenes", "alpamayo"]
+    },
+    {
+      "id": "world-model",
+      "label": "世界模型",
+      "keywords": ["world model", "world models", "world modeling", "world modelling", "worldmodel", "worldmodels", "cosmos-predict", "cosmos-transfer", "lingbot-world", "世界模型"],
+      "githubQuery": "world-model",
+      "hfQueries": ["world-model", "cosmos-predict", "lingbot-world"]
+    },
+    {
+      "id": "end-to-end-driving",
+      "label": "端到端驾驶",
+      "keywords": ["end-to-end driving", "end-to-end autonomous driving", "end-to-end self-driving", "E2E driving", "E2EAD", "NAVSIM", "UniAD", "VADv2", "DriveTransformer", "Alpamayo", "ReCogDrive", "端到端驾驶", "端到端自动驾驶"],
+      "githubQuery": "\"end-to-end\" driving",
+      "hfQueries": ["navsim", "end-to-end-driving", "uniad", "recogdrive"]
+    },
+    {
+      "id": "vla",
+      "label": "VLA",
+      "keywords": ["vision language action", "vision language action models", "visual language action", "VLA", "OpenVLA", "SmolVLA", "GR00T", "视觉语言动作"],
+      "githubQuery": "vision-language-action",
+      "hfQueries": ["vla", "vision-language-action", "groot"]
+    },
+    {
+      "id": "embodied-ai",
+      "label": "具身智能",
+      "keywords": ["embodied AI", "embodied intelligence", "embodied agent", "embodied agents", "robot learning", "robot foundation model", "robot foundation models", "LeRobot", "具身智能", "机器人学习"],
+      "githubQuery": "embodied-ai",
+      "hfQueries": ["embodied", "robot-learning", "lerobot"]
+    },
+    {
+      "id": "multimodal-llm",
+      "label": "多模态大模型",
+      "keywords": ["multimodal large language model", "multimodal large language models", "large multimodal model", "large multimodal models", "multimodal LLM", "multimodal LLMs", "MLLM", "MLLMs", "large vision-language model", "large vision-language models", "Qwen2.5-VL", "Qwen3-VL", "InternVL", "InternVL3", "LLaVA", "多模态大模型", "多模态大语言模型"],
+      "githubQuery": "multimodal-llm",
+      "hfQueries": ["multimodal-llm", "qwen3-vl", "internvl", "llava"]
+    }
+  ]
+}

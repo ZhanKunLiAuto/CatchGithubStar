@@ -1,0 +1,14 @@
+{
+  "name": "catch-github-star",
+  "version": "1.0.0",
+  "private": true,
+  "description": "与研究方向相关的 GitHub 和 Hugging Face 每日项目雷达",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "update": "node scripts/update.mjs",
+    "start": "node scripts/serve.mjs",
+    "test": "node --test"
+  }
+}

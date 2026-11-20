@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#19172c">
+  <meta name="description" content="每日追踪 GitHub 与 Hugging Face 上与你的研究方向相关的项目。">
+  <title>研究雷达 · Research Radar</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#feed">跳到项目列表</a>
+  <header class="masthead">
+    <div class="wrap masthead-inner">
+      <a class="brand" href="./" aria-label="Research Radar 首页">
+        <span class="brand-symbol" aria-hidden="true"><i></i></span>
+        <span>Research<span class="wordmark-second">Radar</span></span>
+      </a>
+      <nav aria-label="主导航">
+        <a class="nav-current" href="#feed">每日简报</a>
+        <button class="method-open" id="method-open" type="button" aria-haspopup="dialog">榜单说明</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="radar-art" aria-hidden="true"><canvas id="radar"></canvas></div>
+      <div class="hero-copy">
+        <div class="hero-kicker"><span></span> DAILY RESEARCH BRIEF</div>
+        <h1 id="hero-title">研究雷达<span aria-hidden="true">.</span></h1>
+        <p>每天一份简报，追踪 GitHub 与 Hugging Face 上<br class="hero-br">与你研究方向相关的热门项目。</p>
+        <div class="edition" id="edition"><span class="calendar-icon" aria-hidden="true"></span><span id="edition-text">正在读取简报</span></div>
+      </div>
+    </section>
+
+    <section id="feed" class="feed" aria-labelledby="feed-title">
+      <div class="feed-heading">
+        <div class="heading-lockup"><span class="feed-mark" aria-hidden="true"><i></i><i></i><i></i></span><h2 id="feed-title">项目速览</h2></div>
+        <label class="search"><span class="search-icon" aria-hidden="true"></span><input id="search" type="search" placeholder="搜索项目、作者或关键词" aria-label="搜索项目、作者或关键词"></label>
+      </div>
+      <div class="controls">
+        <div class="platforms" role="group" aria-label="筛选项目来源">
+          <button type="button" data-source="all" aria-pressed="true">全部<span data-count="all"></span></button>
+          <button type="button" data-source="github" aria-pressed="false">GitHub<span data-count="github"></span></button>
+          <button type="button" data-source="huggingface" aria-pressed="false">Hugging Face<span data-count="huggingface"></span></button>
+        </div>
+        <label class="topic-select"><span class="filter-icon" aria-hidden="true"><i></i><i></i><i></i></span>
+          <select id="topic" aria-label="筛选研究方向"><option value="">全部研究方向</option></select>
+        </label>
+      </div>
+      <div id="alerts"></div>
+      <p class="sr-only" role="status" id="result-status"></p>
+      <div class="project-grid" id="projects" aria-busy="true">
+        <p class="state">正在读取简报…</p>
+      </div>
+      <div class="more-row"><button class="secondary" type="button" id="more" hidden>显示更多项目</button></div>
+      <noscript>请启用 JavaScript 以查看和筛选项目。</noscript>
+    </section>
+  </main>
+  <footer class="footer"><div class="wrap footer-inner"><span>Research Radar</span><span>数据来自 GitHub 与 Hugging Face</span></div></footer>
+
+  <dialog id="method" aria-labelledby="method-title">
+    <div class="dialog-head"><h2 id="method-title">榜单说明</h2><button id="close-method" class="close" type="button" aria-label="关闭榜单说明">×</button></div>
+    <p>简报每天从 GitHub 和 Hugging Face 的公开接口采集项目。每张卡片会列出匹配的研究方向，方便判断是否值得细读。</p>
+    <h3>如何筛选与排序</h3>
+    <p>系统按配置的研究关键词筛选候选项目，结合方向匹配、近期活跃度及平台热度排序。GitHub 提供仓库星标，Hugging Face 提供模型、数据集和 Space 的点赞、下载或趋势信号。</p>
+    <h3>数据更新时间</h3>
+    <div id="source-times">正在读取简报…</div>
+  </dialog>
+</body>
+</html>
