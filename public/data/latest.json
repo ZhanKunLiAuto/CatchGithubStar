@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "generatedAt": "2026-11-20T18:31:10.196Z",
+  "generatedAt": "2026-11-20T18:38:34.740Z",
   "topics": [
     {
       "id": "autonomous-driving",
@@ -30,11 +30,11 @@
   "sources": {
     "github": {
       "status": "ok",
-      "asOf": "2026-11-20T18:31:10.196Z"
+      "asOf": "2026-11-20T18:38:34.740Z"
     },
     "huggingface": {
       "status": "ok",
-      "asOf": "2026-11-20T18:31:10.196Z"
+      "asOf": "2026-11-20T18:38:34.740Z"
     }
   },
   "items": [
@@ -171,9 +171,9 @@
       ],
       "updatedAt": "2026-11-19T12:18:10.000Z",
       "createdAt": "2026-11-14T11:23:13.000Z",
-      "likes": 185,
+      "likes": 187,
       "downloads": 875,
-      "trendingScore": 48,
+      "trendingScore": 48.5,
       "topics": [
         "multimodal-llm"
       ],
@@ -206,9 +206,9 @@
       ],
       "updatedAt": "2026-11-10T06:56:17.000Z",
       "createdAt": "2026-08-12T01:31:29.000Z",
-      "likes": 129,
+      "likes": 130,
       "downloads": 3556,
-      "trendingScore": 21,
+      "trendingScore": 21.5,
       "topics": [
         "autonomous-driving",
         "end-to-end-driving",
@@ -220,7 +220,7 @@
         "Alpamayo",
         "vision language action"
       ],
-      "score": 81.9
+      "score": 82
     },
     {
       "source": "huggingface",
@@ -246,14 +246,14 @@
       "createdAt": "2026-10-07T23:42:01.000Z",
       "likes": 364,
       "downloads": 593,
-      "trendingScore": 45,
+      "trendingScore": 44.5,
       "topics": [
         "world-model"
       ],
       "keywords": [
         "world model"
       ],
-      "score": 80.5
+      "score": 80.4
     },
     {
       "source": "github",
@@ -282,7 +282,7 @@
       ],
       "updatedAt": "2026-11-20T17:27:48Z",
       "createdAt": "2017-10-24T09:06:23Z",
-      "stars": 14666,
+      "stars": 14667,
       "language": "C++",
       "topics": [
         "autonomous-driving"
@@ -456,7 +456,7 @@
         "textbook",
         "tinyml"
       ],
-      "updatedAt": "2026-11-20T16:10:05Z",
+      "updatedAt": "2026-11-20T18:32:16Z",
       "createdAt": "2023-09-06T19:31:06Z",
       "stars": 30276,
       "language": "Python",
@@ -466,7 +466,7 @@
       "keywords": [
         "embodied AI"
       ],
-      "score": 75.9
+      "score": 76
     },
     {
       "source": "github",
@@ -498,39 +498,29 @@
     {
       "source": "github",
       "kind": "repository",
-      "name": "AtsushiSakai/PythonRobotics",
-      "url": "https://github.com/AtsushiSakai/PythonRobotics",
-      "description": "Python sample codes and textbook for robotics algorithms.",
+      "name": "knightnemo/Awesome-World-Models",
+      "url": "https://github.com/knightnemo/Awesome-World-Models",
+      "description": "A Curated List of Awesome Works in World Modeling, Aiming to Serve as a One-stop Resource for Researchers, Practitioners, and Enthusiasts Interested in World Modeling.",
       "tags": [
-        "algorithm",
-        "animation",
-        "autonomous-driving",
-        "autonomous-navigation",
-        "autonomous-vehicles",
-        "control",
-        "cvxpy",
-        "ekf",
-        "hacktoberfest",
-        "localization",
-        "mapping",
-        "path-planning",
-        "python",
-        "robot",
-        "robotics",
-        "slam"
+        "awesome-list",
+        "dynamical-systems",
+        "embodied-ai",
+        "generative-model",
+        "world-models"
       ],
-      "updatedAt": "2026-11-16T20:03:07Z",
-      "createdAt": "2016-03-21T09:34:43Z",
-      "stars": 30954,
-      "language": "Python",
+      "updatedAt": "2026-11-20T00:49:49Z",
+      "createdAt": "2025-10-31T14:38:53Z",
+      "stars": 3539,
       "topics": [
-        "autonomous-driving"
+        "world-model",
+        "embodied-ai"
       ],
       "keywords": [
-        "autonomous driving",
-        "autonomous vehicles"
+        "world models",
+        "world modeling",
+        "embodied AI"
       ],
-      "score": 75.8
+      "score": 75.7
     },
     {
       "source": "github",
@@ -978,7 +968,7 @@
   "githubBaseline": null,
   "githubObservations": {
     "atsushisakai/pythonrobotics": 30954,
-    "carla-simulator/carla": 14666,
+    "carla-simulator/carla": 14667,
     "autowarefoundation/autoware": 12268,
     "farama-foundation/highwayenv": 3342,
     "lmd0311/awesome-world-model": 2306,
@@ -1079,7 +1069,7 @@
     "rtwotwo/drivesta": 4,
     "starvla/starvla": 3966,
     "dexmal/dexbotic": 3239,
-    "rainbowluocs/gamer": 1051,
+    "rainbowluocs/gamer": 1053,
     "sou350121/vla-handbook": 787,
     "robocurve/inspect-robots": 775,
     "2toinf/x-vla": 762,
@@ -1197,16 +1187,16 @@
     "wangyuhang-cmd/frontdrive": 1,
     "musicalmoods/qvelocity": 1,
     "sevillafe/energy-aware-regression-in-snn-for-autonomous-driving-a-comparative-study-with-cnn": 1,
-    "qzj12345643/registerpr": 1,
     "patrick-sch03/2026-auto-race": 1,
+    "qzj12345643/registerpr": 1,
     "healthyoddity/data_process_general": 1,
     "harishnr93/drive-aware-e2e-driving": 1,
     "thunguyenth/caraplan": 1,
-    "mrchandrayee/traffic_sign_detection_recognition": 1,
     "hanfeng-wu/navcontrol": 1,
+    "mrchandrayee/traffic_sign_detection_recognition": 1,
     "sherin-sef-ai/vantage": 1,
-    "yangliu68/metatraffic": 1,
     "rishisalat/rishisalat": 1,
+    "yangliu68/metatraffic": 1,
     "miao-org/awesome-supermimic": 640,
     "cuboileo/supermimic-reproduced": 471,
     "sheepseb/tinyworldformer": 375,
@@ -1221,7 +1211,7 @@
     "emopointer/supermimic_manipulation": 114,
     "nju-r-l-group-embodied-lab/supermimic-repro-sim2real": 106,
     "jidaivita/awesome-generalizable-world-models": 76,
-    "lynnreal-ai/lynnreal": 75,
+    "lynnreal-ai/lynnreal": 76,
     "agentic-videogen/awesome-agentic-videogen": 65,
     "douglaslafortune7668/virtual-card-usdt-world-models-embodied-ai-sim-vcc": 61,
     "tabethabult399205/virtual-card-usdt-gemini-4-genie-4-cloud-vcc-applepay": 61,
@@ -1265,14 +1255,13 @@
     "ppyyds0330/pi05-libero10-finetuning": 2,
     "wen-hanhsieh/hdh": 1,
     "ai4ce/victr": 1,
-    "adept-org/fastrovervla": 1,
     "jiuyixu25/qbd-vla": 1,
+    "adept-org/fastrovervla": 1,
     "kkt94/self-calibrating-vla": 1,
     "peacelwh/stereolift": 1,
     "wenhowyu/awesome-embodied-ai-daily": 1,
     "kyrielq/vla-robot": 1,
     "jiabingyang01/aware": 1,
-    "kimsunguk0/ishinca": 1,
     "archeone-ai/roboscript": 318,
     "shutongliang/neural-state-os": 223,
     "openrobokit/roboskills": 193,
@@ -1288,7 +1277,7 @@
     "wyregey779-dot/trace-annotate": 17,
     "lens-lab-ai/awesome-frontier-model-robotics": 17,
     "12sqawdwq/flyhead": 14,
-    "plantpotatoonmoon/twopass": 11,
+    "plantpotatoonmoon/twopass": 12,
     "ziwu-ai/robotics-bench": 10,
     "wrencanfly/openrocode": 10,
     "weiwoking/lingxi-rehab-agent": 10,
@@ -1305,7 +1294,7 @@
     "cyanseek/deepseek-whalechan-robot": 4,
     "m0nsyuke/paperlab": 4,
     "cau-hai-lab/alfworld-para": 4,
-    "tencent/wemm-video": 40,
+    "tencent/wemm-video": 41,
     "yxwang1215/glance-etd": 9,
     "keshik6/halcyon": 6,
     "livegeoworld/geoworld": 6,
