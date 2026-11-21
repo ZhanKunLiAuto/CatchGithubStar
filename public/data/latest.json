@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "generatedAt": "2026-11-20T18:38:34.740Z",
+  "generatedAt": "2026-11-21T03:57:19.444Z",
   "topics": [
     {
       "id": "autonomous-driving",
@@ -30,11 +30,11 @@
   "sources": {
     "github": {
       "status": "ok",
-      "asOf": "2026-11-20T18:38:34.740Z"
+      "asOf": "2026-11-21T03:57:19.444Z"
     },
     "huggingface": {
       "status": "ok",
-      "asOf": "2026-11-20T18:38:34.740Z"
+      "asOf": "2026-11-21T03:57:19.444Z"
     }
   },
   "items": [
@@ -81,9 +81,9 @@
       ],
       "updatedAt": "2026-11-19T22:11:40.000Z",
       "createdAt": "2026-11-12T16:49:09.000Z",
-      "likes": 61,
+      "likes": 72,
       "downloads": 190021,
-      "trendingScore": 18,
+      "trendingScore": 18.5,
       "topics": [
         "world-model",
         "vla",
@@ -96,7 +96,7 @@
         "robot learning",
         "LeRobot"
       ],
-      "score": 87
+      "score": 87.1
     },
     {
       "source": "huggingface",
@@ -133,16 +133,16 @@
       ],
       "updatedAt": "2026-11-13T08:37:27.000Z",
       "createdAt": "2025-02-11T07:06:01.000Z",
-      "likes": 303,
+      "likes": 366,
       "downloads": 45338,
-      "trendingScore": 62,
+      "trendingScore": 64,
       "topics": [
         "multimodal-llm"
       ],
       "keywords": [
         "LLaVA"
       ],
-      "score": 85.1
+      "score": 85.4
     },
     {
       "source": "huggingface",
@@ -171,7 +171,7 @@
       ],
       "updatedAt": "2026-11-19T12:18:10.000Z",
       "createdAt": "2026-11-14T11:23:13.000Z",
-      "likes": 187,
+      "likes": 239,
       "downloads": 875,
       "trendingScore": 48.5,
       "topics": [
@@ -180,7 +180,7 @@
       "keywords": [
         "LLaVA"
       ],
-      "score": 83.6
+      "score": 83.8
     },
     {
       "source": "huggingface",
@@ -208,7 +208,7 @@
       "createdAt": "2026-08-12T01:31:29.000Z",
       "likes": 130,
       "downloads": 3556,
-      "trendingScore": 21.5,
+      "trendingScore": 20,
       "topics": [
         "autonomous-driving",
         "end-to-end-driving",
@@ -220,7 +220,7 @@
         "Alpamayo",
         "vision language action"
       ],
-      "score": 82
+      "score": 81.5
     },
     {
       "source": "huggingface",
@@ -244,9 +244,9 @@
       ],
       "updatedAt": "2026-11-12T10:41:23.000Z",
       "createdAt": "2026-10-07T23:42:01.000Z",
-      "likes": 364,
+      "likes": 408,
       "downloads": 593,
-      "trendingScore": 44.5,
+      "trendingScore": 44,
       "topics": [
         "world-model"
       ],
@@ -280,9 +280,9 @@
         "ue4",
         "unreal-engine-4"
       ],
-      "updatedAt": "2026-11-20T17:27:48Z",
+      "updatedAt": "2026-11-21T01:41:23Z",
       "createdAt": "2017-10-24T09:06:23Z",
-      "stars": 14667,
+      "stars": 14668,
       "language": "C++",
       "topics": [
         "autonomous-driving"
@@ -293,6 +293,75 @@
         "autonomous vehicles"
       ],
       "score": 79.3
+    },
+    {
+      "source": "github",
+      "kind": "repository",
+      "name": "ShisatoYano/AutonomousVehicleControlBeginnersGuide",
+      "url": "https://github.com/ShisatoYano/AutonomousVehicleControlBeginnersGuide",
+      "description": "Learn autonomous driving by building it: Python simulations and an open textbook where the system grows one stage at a time. Swap and compare localization, planning and control algorithms in the same system.",
+      "tags": [
+        "algorithm",
+        "autonomous-driving",
+        "autonomous-navigation",
+        "autonomous-vehicles",
+        "education",
+        "kalman-filter",
+        "localization",
+        "mapping",
+        "model-predictive-control",
+        "object-detection",
+        "object-tracking",
+        "path-planning",
+        "path-tracking",
+        "perception",
+        "python",
+        "robotics",
+        "self-driving-car",
+        "simulation",
+        "slam",
+        "textbook"
+      ],
+      "updatedAt": "2026-11-21T02:57:16Z",
+      "createdAt": "2022-07-01T14:00:16Z",
+      "stars": 1963,
+      "language": "Python",
+      "topics": [
+        "autonomous-driving"
+      ],
+      "keywords": [
+        "autonomous driving",
+        "self-driving",
+        "autonomous vehicle",
+        "autonomous vehicles"
+      ],
+      "score": 76.8
+    },
+    {
+      "source": "github",
+      "kind": "repository",
+      "name": "autowarefoundation/autoware",
+      "url": "https://github.com/autowarefoundation/autoware",
+      "description": "Autoware - the world's leading open-source software project for autonomous driving",
+      "tags": [
+        "autonomous-driving",
+        "autonomous-vehicles",
+        "autoware",
+        "ros",
+        "ros2"
+      ],
+      "updatedAt": "2026-11-20T22:19:02Z",
+      "createdAt": "2015-08-24T23:17:57Z",
+      "stars": 12268,
+      "language": "Dockerfile",
+      "topics": [
+        "autonomous-driving"
+      ],
+      "keywords": [
+        "autonomous driving",
+        "autonomous vehicles"
+      ],
+      "score": 76.8
     },
     {
       "source": "github",
@@ -325,75 +394,6 @@
         "world model",
         "world models"
       ],
-      "score": 76.9
-    },
-    {
-      "source": "github",
-      "kind": "repository",
-      "name": "ShisatoYano/AutonomousVehicleControlBeginnersGuide",
-      "url": "https://github.com/ShisatoYano/AutonomousVehicleControlBeginnersGuide",
-      "description": "Learn autonomous driving by building it: Python simulations and an open textbook where the system grows one stage at a time. Swap and compare localization, planning and control algorithms in the same system.",
-      "tags": [
-        "algorithm",
-        "autonomous-driving",
-        "autonomous-navigation",
-        "autonomous-vehicles",
-        "education",
-        "kalman-filter",
-        "localization",
-        "mapping",
-        "model-predictive-control",
-        "object-detection",
-        "object-tracking",
-        "path-planning",
-        "path-tracking",
-        "perception",
-        "python",
-        "robotics",
-        "self-driving-car",
-        "simulation",
-        "slam",
-        "textbook"
-      ],
-      "updatedAt": "2026-11-20T15:53:35Z",
-      "createdAt": "2022-07-01T14:00:16Z",
-      "stars": 1963,
-      "language": "Python",
-      "topics": [
-        "autonomous-driving"
-      ],
-      "keywords": [
-        "autonomous driving",
-        "self-driving",
-        "autonomous vehicle",
-        "autonomous vehicles"
-      ],
-      "score": 76.8
-    },
-    {
-      "source": "github",
-      "kind": "repository",
-      "name": "autowarefoundation/autoware",
-      "url": "https://github.com/autowarefoundation/autoware",
-      "description": "Autoware - the world's leading open-source software project for autonomous driving",
-      "tags": [
-        "autonomous-driving",
-        "autonomous-vehicles",
-        "autoware",
-        "ros",
-        "ros2"
-      ],
-      "updatedAt": "2026-11-20T08:55:24Z",
-      "createdAt": "2015-08-24T23:17:57Z",
-      "stars": 12268,
-      "language": "Dockerfile",
-      "topics": [
-        "autonomous-driving"
-      ],
-      "keywords": [
-        "autonomous driving",
-        "autonomous vehicles"
-      ],
       "score": 76.7
     },
     {
@@ -412,7 +412,7 @@
       ],
       "updatedAt": "2026-11-17T07:18:53Z",
       "createdAt": "2024-12-08T13:33:40Z",
-      "stars": 4533,
+      "stars": 4534,
       "language": "Jupyter Notebook",
       "topics": [
         "vla",
@@ -428,7 +428,7 @@
         "embodied agent",
         "具身智能"
       ],
-      "score": 76.7
+      "score": 76.5
     },
     {
       "source": "github",
@@ -456,9 +456,9 @@
         "textbook",
         "tinyml"
       ],
-      "updatedAt": "2026-11-20T18:32:16Z",
+      "updatedAt": "2026-11-21T00:45:47Z",
       "createdAt": "2023-09-06T19:31:06Z",
-      "stars": 30276,
+      "stars": 30278,
       "language": "Python",
       "topics": [
         "embodied-ai"
@@ -466,7 +466,7 @@
       "keywords": [
         "embodied AI"
       ],
-      "score": 76
+      "score": 75.9
     },
     {
       "source": "github",
@@ -485,7 +485,7 @@
       ],
       "updatedAt": "2026-11-17T19:28:33Z",
       "createdAt": "2024-05-17T04:29:13Z",
-      "stars": 17013,
+      "stars": 17017,
       "topics": [
         "embodied-ai"
       ],
@@ -493,7 +493,7 @@
         "embodied AI",
         "具身智能"
       ],
-      "score": 75.9
+      "score": 75.7
     },
     {
       "source": "github",
@@ -510,7 +510,7 @@
       ],
       "updatedAt": "2026-11-20T00:49:49Z",
       "createdAt": "2025-10-31T14:38:53Z",
-      "stars": 3539,
+      "stars": 3540,
       "topics": [
         "world-model",
         "embodied-ai"
@@ -520,7 +520,7 @@
         "world modeling",
         "embodied AI"
       ],
-      "score": 75.7
+      "score": 75.5
     },
     {
       "source": "github",
@@ -559,7 +559,7 @@
         "autonomous vehicles",
         "end-to-end driving"
       ],
-      "score": 75.3
+      "score": 75.1
     },
     {
       "source": "huggingface",
@@ -589,7 +589,7 @@
       ],
       "updatedAt": "2026-11-07T01:51:33.000Z",
       "createdAt": "2026-11-04T22:32:05.000Z",
-      "likes": 100,
+      "likes": 111,
       "downloads": 19357,
       "trendingScore": 13,
       "topics": [
@@ -599,6 +599,44 @@
         "LeRobot"
       ],
       "score": 73.4
+    },
+    {
+      "source": "github",
+      "kind": "repository",
+      "name": "TUM-AVS/FM-AD-Survey",
+      "url": "https://github.com/TUM-AVS/FM-AD-Survey",
+      "description": "[Survey Paper] This repository collects research papers of large Foundation Models for Scenario Generation and Analysis in Autonomous Driving. The repository will be continuously updated to track the latest update.",
+      "tags": [
+        "autonomous-driving",
+        "diffusion-models",
+        "foundation-models",
+        "large-language-models",
+        "llms",
+        "mllms",
+        "multimodal-large-language-models",
+        "scenario-analysis",
+        "scenario-generation",
+        "survey",
+        "vision-language-model",
+        "vlms",
+        "world-models"
+      ],
+      "updatedAt": "2026-11-19T16:49:49Z",
+      "createdAt": "2025-05-02T13:29:16Z",
+      "stars": 249,
+      "language": "Python",
+      "topics": [
+        "autonomous-driving",
+        "world-model",
+        "multimodal-llm"
+      ],
+      "keywords": [
+        "autonomous driving",
+        "world models",
+        "multimodal large language models",
+        "MLLMs"
+      ],
+      "score": 71.4
     },
     {
       "source": "huggingface",
@@ -638,16 +676,16 @@
       ],
       "updatedAt": "2026-11-13T08:12:01.000Z",
       "createdAt": "2026-11-13T02:30:13.000Z",
-      "likes": 41,
+      "likes": 55,
       "downloads": 8431,
-      "trendingScore": 7,
+      "trendingScore": 5.5,
       "topics": [
         "embodied-ai"
       ],
       "keywords": [
         "embodied AI"
       ],
-      "score": 71.8
+      "score": 71.3
     },
     {
       "source": "huggingface",
@@ -687,101 +725,44 @@
       "keywords": [
         "Qwen3-VL"
       ],
-      "score": 70.5
-    },
-    {
-      "source": "github",
-      "kind": "repository",
-      "name": "worldbench/awesome-vla-for-ad",
-      "url": "https://github.com/worldbench/awesome-vla-for-ad",
-      "description": "🌐 Vision-Language-Action Models for Autonomous Driving: Past, Present, and Future",
-      "tags": [
-        "automotive",
-        "autonomous-driving",
-        "autonomous-vehicles",
-        "awesome-list",
-        "closed-loop",
-        "closed-loop-control",
-        "embodied-ai",
-        "large-language-models",
-        "llm",
-        "multi-modal",
-        "multimodal-large-language-models",
-        "self-driving",
-        "self-driving-cars",
-        "vision-language",
-        "vision-language-action",
-        "vision-language-models",
-        "vla",
-        "vlm",
-        "wam",
-        "world-action-model"
-      ],
-      "updatedAt": "2026-11-14T00:51:14Z",
-      "createdAt": "2025-09-07T11:35:03Z",
-      "stars": 530,
-      "language": "HTML",
-      "topics": [
-        "autonomous-driving",
-        "vla",
-        "embodied-ai",
-        "multimodal-llm"
-      ],
-      "keywords": [
-        "autonomous driving",
-        "self-driving",
-        "self driving cars",
-        "autonomous vehicles",
-        "vision language action",
-        "vision language action models",
-        "VLA",
-        "embodied AI",
-        "multimodal large language models"
-      ],
       "score": 70.2
     },
     {
       "source": "github",
       "kind": "repository",
-      "name": "General-Sequences/sequence-ai",
-      "url": "https://github.com/General-Sequences/sequence-ai",
-      "description": "SequenceLink: open source serving for robot policies on remote GPUs, verified with openpi, LeRobot, GR00T and Octo. An inference layer (CUDA graphs with the same outputs, replicas) and a network layer (a robot's connection to its GPU), on your own GPU or on the hosted SequenceLink platform. pip install sequence-ai",
+      "name": "james-joobs/awesome-nvidia-physical-ai",
+      "url": "https://github.com/james-joobs/awesome-nvidia-physical-ai",
+      "description": "An independent bilingual guide to NVIDIA Physical AI. Find tools, models, and workflows for robotics, simulation, and autonomous driving.",
       "tags": [
-        "action-chunking",
-        "batching",
-        "cuda-graphs",
-        "gr00t",
-        "inference",
-        "latency",
-        "lerobot",
-        "openpi",
-        "policy-serving",
-        "python",
-        "pytorch",
-        "remote-inference",
+        "autonomous-driving",
+        "awesome-list",
+        "digital-twin",
+        "isaac-lab",
+        "isaac-sim",
+        "nvidia",
+        "openusd",
+        "physical-ai",
+        "robot-foundation-models",
         "robot-learning",
         "robotics",
-        "scheduling",
-        "sdk",
-        "sequencelink",
-        "vision-language-action",
-        "vla",
-        "websocket"
+        "simulation",
+        "synthetic-data",
+        "vision-language-action"
       ],
-      "updatedAt": "2026-11-20T04:50:25Z",
-      "createdAt": "2026-11-17T00:14:54Z",
-      "stars": 58,
+      "updatedAt": "2026-11-21T03:35:10Z",
+      "createdAt": "2026-11-09T07:00:35Z",
+      "stars": 50,
       "language": "Python",
       "topics": [
+        "autonomous-driving",
         "vla",
         "embodied-ai"
       ],
       "keywords": [
+        "autonomous driving",
         "vision language action",
-        "VLA",
-        "GR00T",
         "robot learning",
-        "LeRobot"
+        "robot foundation models"
       ],
       "score": 68.7
     },
@@ -817,46 +798,7 @@
       "keywords": [
         "LLaVA"
       ],
-      "score": 68.6
-    },
-    {
-      "source": "github",
-      "kind": "repository",
-      "name": "james-joobs/awesome-nvidia-physical-ai",
-      "url": "https://github.com/james-joobs/awesome-nvidia-physical-ai",
-      "description": "An independent bilingual guide to NVIDIA Physical AI. Find tools, models, and workflows for robotics, simulation, and autonomous driving.",
-      "tags": [
-        "autonomous-driving",
-        "awesome-list",
-        "digital-twin",
-        "isaac-lab",
-        "isaac-sim",
-        "nvidia",
-        "openusd",
-        "physical-ai",
-        "robot-foundation-models",
-        "robot-learning",
-        "robotics",
-        "simulation",
-        "synthetic-data",
-        "vision-language-action"
-      ],
-      "updatedAt": "2026-11-20T07:15:45Z",
-      "createdAt": "2026-11-09T07:00:35Z",
-      "stars": 50,
-      "language": "Python",
-      "topics": [
-        "autonomous-driving",
-        "vla",
-        "embodied-ai"
-      ],
-      "keywords": [
-        "autonomous driving",
-        "vision language action",
-        "robot learning",
-        "robot foundation models"
-      ],
-      "score": 68.5
+      "score": 68.4
     },
     {
       "source": "huggingface",
@@ -891,7 +833,7 @@
         "SmolVLA",
         "LeRobot"
       ],
-      "score": 68.2
+      "score": 68.1
     },
     {
       "source": "huggingface",
@@ -928,47 +870,104 @@
         "VLA",
         "LeRobot"
       ],
-      "score": 66.5
+      "score": 66.3
     },
     {
-      "source": "huggingface",
-      "kind": "dataset",
-      "name": "lerobot/FineART",
-      "url": "https://huggingface.co/datasets/lerobot/FineART",
-      "description": "FineART: Fine-Grained Annotated Robotic Trajectory Dataset FineART is co-released by Scale AI and Hugging Face LeRobot. The data was collected and annotated by the Physical AI unit at Scale AI. FineART is a bimanual manipulation dataset where every episode comes with dense, human-written subtask annotations. It has 40,543 teleoperated episodes (1,718 hours), 533,913 subtask labels, and 151 tasks, all collected on a Trossen Stationary AI (ALOHA-style) bimanual robot. Most robot",
+      "source": "github",
+      "kind": "repository",
+      "name": "General-Sequences/sequence-ai",
+      "url": "https://github.com/General-Sequences/sequence-ai",
+      "description": "SequenceLink serves robot policies from GPUs anywhere: the policy runs on a GPU, and the robot connects to it over the internet. Works with openpi, LeRobot, GR00T and Octo, and with any policy written as a class. pip install sequence-ai",
       "tags": [
-        "task_categories:robotics",
-        "license:cc-by-4.0",
-        "size_categories:10K<n<100K",
-        "modality:video",
-        "arxiv:2609.36416",
-        "region:us",
+        "action-chunking",
+        "batching",
+        "cuda-graphs",
+        "gr00t",
+        "inference",
+        "latency",
+        "lerobot",
+        "openpi",
+        "policy-serving",
+        "python",
+        "pytorch",
+        "remote-inference",
+        "robot-learning",
         "robotics",
-        "bimanual-manipulation",
+        "scheduling",
+        "sdk",
+        "sequencelink",
         "vision-language-action",
-        "subtask-annotations",
-        "LeRobot"
+        "vla",
+        "websocket"
       ],
-      "updatedAt": "2026-11-06T08:49:46.000Z",
-      "createdAt": "2026-10-12T09:06:55.000Z",
-      "likes": 46,
-      "downloads": 1165646,
-      "trendingScore": 1,
+      "updatedAt": "2026-11-20T04:50:25Z",
+      "createdAt": "2026-11-17T00:14:54Z",
+      "stars": 20,
+      "language": "Python",
       "topics": [
         "vla",
         "embodied-ai"
       ],
       "keywords": [
         "vision language action",
+        "VLA",
+        "GR00T",
+        "robot learning",
         "LeRobot"
       ],
-      "score": 66.4
+      "score": 66.2
+    },
+    {
+      "source": "huggingface",
+      "kind": "dataset",
+      "name": "FINAL-Bench/World-Model",
+      "url": "https://huggingface.co/datasets/FINAL-Bench/World-Model",
+      "description": "🌍 World Model Bench (WM Bench) v1.0 Beyond FID — Measuring Intelligence, Not Just Motion WM Bench is the world's first benchmark for evaluating the cognitive capabilities of World Models and Embodied AI systems. 🎯 Why WM Bench? Existing world model evaluations focus on: FID / FVD — image and video quality (\"Does it look real?\") Atari scores — performance in fixed game environments WM Bench measures something different: Does the model think correctly?",
+      "tags": [
+        "task_categories:other",
+        "language:en",
+        "language:ko",
+        "license:apache-2.0",
+        "size_categories:n<1K",
+        "format:json",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:polars",
+        "library:mlcroissant",
+        "arxiv:2605.14386",
+        "region:us",
+        "world-model",
+        "embodied-ai",
+        "benchmark",
+        "agi",
+        "cognitive-evaluation",
+        "vidraft",
+        "prometheus",
+        "wm-bench",
+        "final-bench-family"
+      ],
+      "updatedAt": "2026-11-13T03:08:36.000Z",
+      "createdAt": "2026-03-29T15:03:30.000Z",
+      "likes": 57,
+      "downloads": 605,
+      "trendingScore": 0,
+      "topics": [
+        "world-model",
+        "embodied-ai"
+      ],
+      "keywords": [
+        "world model",
+        "world models",
+        "embodied AI"
+      ],
+      "score": 65.6
     }
   ],
   "githubBaseline": null,
   "githubObservations": {
-    "atsushisakai/pythonrobotics": 30954,
-    "carla-simulator/carla": 14667,
+    "atsushisakai/pythonrobotics": 30953,
+    "carla-simulator/carla": 14668,
     "autowarefoundation/autoware": 12268,
     "farama-foundation/highwayenv": 3342,
     "lmd0311/awesome-world-model": 2306,
@@ -976,9 +975,8 @@
     "leofan90/awesome-world-models": 2059,
     "shisatoyano/autonomousvehiclecontrolbeginnersguide": 1963,
     "thinklab-sjtu/awesome-llm4ad": 1907,
-    "autowarefoundation/autoware_universe": 1819,
-    "autonomousvision/transfuser": 1616,
-    "szenergy/awesome-lidar": 1374,
+    "autowarefoundation/autoware_universe": 1820,
+    "szenergy/awesome-lidar": 1375,
     "nvlabs/alpasim": 1305,
     "hanruihua/ir-sim": 1241,
     "eclipse-ecal/ecal": 1060,
@@ -986,7 +984,7 @@
     "autowarefoundation/vision_pilot": 928,
     "gotonote/autopilot-notes": 853,
     "autowarefoundation/awsim": 766,
-    "openhutb/hutb": 757,
+    "openhutb/hutb": 758,
     "little-podi/collaborative_perception": 639,
     "xiaomi-research/recogdrive": 632,
     "apolloscapeauto/dataset-api": 620,
@@ -997,39 +995,40 @@
     "ahernresearch/grava": 487,
     "usdot-fhwa-stol/carma-platform": 445,
     "ss47816/lidar_obstacle_detector": 424,
-    "kesai-labs/py123d": 413,
+    "kesai-labs/py123d": 414,
     "nvlabs/physical_ai_av": 383,
     "nv-tlabs/omni-dreams": 367,
     "libai1943/cartesianplanner": 343,
-    "nvlabs/alpamayo2": 313,
+    "nvlabs/alpamayo2": 314,
     "tier4/calibrationtools": 295,
     "woodoxen/tactics2d": 290,
     "nvidia/asset-harvester": 276,
     "lmd0311/hermes": 265,
     "xiaomi-research/unidrivevla": 260,
-    "nvidia/cosmos": 12423,
-    "nvlabs/sana": 9861,
-    "deeplethe/utopia": 8739,
-    "vllm-project/vllm-omni": 7871,
-    "danijar/dreamerv3": 4000,
+    "tum-avs/fm-ad-survey": 249,
+    "nvidia/cosmos": 12427,
+    "nvlabs/sana": 9862,
+    "deeplethe/utopia": 8741,
+    "vllm-project/vllm-omni": 7876,
+    "danijar/dreamerv3": 4001,
     "lightly-ai/lightly": 3833,
-    "knightnemo/awesome-world-models": 3539,
-    "skyworkai/matrix-game": 2944,
+    "knightnemo/awesome-world-models": 3540,
+    "skyworkai/matrix-game": 2948,
     "nvlabs/longlive": 2895,
-    "dexmal/opendm": 2743,
+    "dexmal/opendm": 2744,
     "galilai-group/stable-worldmodel": 2315,
-    "pku-yuangroup/helios": 2272,
+    "pku-yuangroup/helios": 2271,
     "thinklab-sjtu/bench2drive": 1979,
-    "hybridrobotics/supermimic": 1894,
+    "hybridrobotics/supermimic": 1899,
     "thu-ml/motus": 1321,
     "inclusionai/aworld": 1249,
-    "gen-verse/rsi-anything": 1191,
+    "gen-verse/rsi-anything": 1193,
     "dravenalg/awesome-vla-wam": 1068,
     "thu-ml/causal-forcing": 1029,
     "nicklashansen/tdmpc2": 1004,
-    "alayalab/evoke": 978,
-    "junchao-cs/solarwm": 928,
+    "alayalab/evoke": 979,
     "opendcai/openworldlib": 892,
+    "junchao-cs/solarwm": 857,
     "alayalab/alayaworld": 808,
     "nucleoidai/nucleoid": 772,
     "datawhalechina/dive-into-embodied-ai": 739,
@@ -1045,7 +1044,7 @@
     "logosintelligencelab/seerdrive": 80,
     "spa-junghokim/safedrive": 75,
     "kesai-labs/py123d_garage": 62,
-    "montrealrobotics/gigapixel": 59,
+    "montrealrobotics/gigapixel": 60,
     "vail-ucla/bridgesim": 57,
     "xiongqi123123/marginad": 41,
     "opendrivelab/vira": 38,
@@ -1067,25 +1066,26 @@
     "mbsoroush/realtimeobjectdetectionforselfdrivingcars": 5,
     "dongxr77/person2drive": 4,
     "rtwotwo/drivesta": 4,
-    "starvla/starvla": 3966,
+    "yuyang-ua/trisafe": 4,
+    "starvla/starvla": 3968,
     "dexmal/dexbotic": 3239,
-    "rainbowluocs/gamer": 1053,
+    "rainbowluocs/gamer": 1144,
     "sou350121/vla-handbook": 787,
     "robocurve/inspect-robots": 775,
     "2toinf/x-vla": 762,
     "h-embodvis/turbovla": 727,
-    "ginwind/vla-jepa": 637,
+    "ginwind/vla-jepa": 636,
     "jiaaqiliu/awesome-vla-robotics": 505,
     "internrobotics/internvla-m1": 438,
     "openmoss/easywam": 414,
     "hzxie/dynamicvla": 378,
-    "dagroup-pku/pyrua-lean": 268,
+    "dagroup-pku/pyrua-lean": 270,
     "aoqunjin/awesome-vla-post-training": 266,
     "wadekeith/awesome-embodied-ai": 255,
     "nvlabs/alpamayo-recipes": 245,
+    "jushengzhang/robot-weight-debugging": 241,
     "bridgevla/bridgevla": 231,
     "jethrojames/awesome-robots-icl": 230,
-    "jushengzhang/robot-weight-debugging": 221,
     "strands-labs/robots": 216,
     "worldbench/awesome-embodied-data-pyramid": 212,
     "xupeng23/aerovla": 208,
@@ -1102,20 +1102,20 @@
     "phi-monster/galahad": 142,
     "thu-rcsct/vlsa-aegis": 141,
     "tuotuolyu/fpo": 132,
-    "harvard-edge/cs249r_book": 30276,
-    "genesis-embodied-ai/genesis-world": 30273,
-    "tianxingchen/embodied-ai-guide": 17013,
+    "genesis-embodied-ai/genesis-world": 30278,
+    "harvard-edge/cs249r_book": 30278,
+    "tianxingchen/embodied-ai-guide": 17017,
     "rlinf/rlinf": 5685,
-    "datawhalechina/every-embodied": 4533,
+    "datawhalechina/every-embodied": 4534,
     "dora-rs/dora": 4100,
     "huangjunsen0406/py-xiaozhi": 3560,
-    "octoday-hub/embodied-ai": 3163,
-    "robotwin-platform/robotwin": 3071,
-    "phyagentos/phyagentos-core": 3011,
+    "octoday-hub/embodied-ai": 3166,
+    "robotwin-platform/robotwin": 3073,
+    "phyagentos/phyagentos-core": 3012,
     "hcplab-sysu/embodied_ai_paper_list": 2196,
     "zchoi/awesome-embodied-robotics-and-agent": 1922,
-    "stanfordvl/behavior-1k": 1801,
-    "zjwzcx/awesome-astra-embodied-ai": 1249,
+    "stanfordvl/behavior-1k": 1803,
+    "zjwzcx/awesome-astra-embodied-ai": 1250,
     "simpler-env/simplerenv": 1186,
     "open-x-humanoid/tienkung-lab": 927,
     "haosulab/sapien": 872,
@@ -1123,13 +1123,13 @@
     "terminators2025/realmirror": 786,
     "cobanov/awesome-fly": 755,
     "realxiaoze/humanoid-motion-intelligence": 716,
-    "muellerberndt/cadence": 641,
-    "spear-sim/spear": 624,
+    "muellerberndt/cadence": 642,
+    "spear-sim/spear": 625,
     "robotecai/rai": 619,
     "xpolicylab/xpolicylab": 598,
     "mll-lab-nu/vagen": 525,
     "luohongk/embodied-ai-daily": 510,
-    "eust-w/opengeniemaster": 478,
+    "eust-w/opengeniemaster": 479,
     "openhelix-team/spatial-forcing": 457,
     "xbotics-embodied-ai-club/xbotics-embodied-ai-job": 445,
     "groundingpi/groundingpi": 441,
@@ -1157,13 +1157,13 @@
     "walkerworldpeace/mllmerging": 61,
     "wimi321/goagent": 59,
     "xiaofengshi/mechvqa": 58,
+    "tencent/wemm-video": 50,
     "jingchensun/awesome-multimodal-opd": 46,
     "james-joobs/awesome-nvidia-physical-ai": 50,
     "wlrudxo/carmaker-llm-agent": 20,
     "mhmdkhalid/carla-mini-dataset": 7,
     "marshal12138/care-drive": 6,
     "shaafeadawood/autonomous-perception-engine": 5,
-    "yuyang-ua/trisafe": 4,
     "weizhi-t/roadmap-for-autonomous-driving-and-robotics": 3,
     "kongwoang/dgsp": 3,
     "adanomy/carla-exporter": 3,
@@ -1179,7 +1179,6 @@
     "leisure-y101/smartcar": 2,
     "krunalvaghela1262-eng/sedrica-autonomous-driving": 1,
     "anas-ibn-shahid/autonomous-driving-risk-intelligence": 1,
-    "dzp181/autonomous-driving-algorithm-expert": 1,
     "thanusree1005/autonomous-driving-computer-vision": 1,
     "tieroverlord/autonomous-driving-security-resources-latest": 1,
     "ceviche98/risk-sensitive-autonomous-driving-rl": 1,
@@ -1194,24 +1193,22 @@
     "thunguyenth/caraplan": 1,
     "hanfeng-wu/navcontrol": 1,
     "mrchandrayee/traffic_sign_detection_recognition": 1,
-    "sherin-sef-ai/vantage": 1,
     "rishisalat/rishisalat": 1,
     "yangliu68/metatraffic": 1,
+    "mkhaled87/carla-e2e-harness": 1,
+    "kimsunguk0/ishinca": 1,
     "miao-org/awesome-supermimic": 640,
-    "cuboileo/supermimic-reproduced": 471,
-    "sheepseb/tinyworldformer": 375,
+    "sheepseb/tinyworldformer": 376,
     "luo-yihang/mundo": 321,
     "fuyichen0725/blinkmimic": 317,
-    "tencentarc/looking-ahead": 275,
     "huy-quang-dao/instanttrack": 215,
-    "nico-bohlinger/xmimic": 190,
+    "nico-bohlinger/xmimic": 191,
     "inclusionai/duo": 160,
-    "inclusionai/codeworldmodel": 152,
+    "inclusionai/codeworldmodel": 159,
     "leggedrobotics/terrain-grounded-imagination": 131,
-    "emopointer/supermimic_manipulation": 114,
+    "emopointer/supermimic_manipulation": 115,
     "nju-r-l-group-embodied-lab/supermimic-repro-sim2real": 106,
-    "jidaivita/awesome-generalizable-world-models": 76,
-    "lynnreal-ai/lynnreal": 76,
+    "lynnreal-ai/lynnreal": 78,
     "agentic-videogen/awesome-agentic-videogen": 65,
     "douglaslafortune7668/virtual-card-usdt-world-models-embodied-ai-sim-vcc": 61,
     "tabethabult399205/virtual-card-usdt-gemini-4-genie-4-cloud-vcc-applepay": 61,
@@ -1219,7 +1216,6 @@
     "opendrivelab/compass": 44,
     "aigc3d/world-in-context": 36,
     "gaoxiang12/ga-wm": 35,
-    "ucsc-vlaa/alps": 34,
     "kbrask/uniaction": 31,
     "roboticsresearchhubvn/instantamp": 30,
     "nico-bohlinger/xsoma": 30,
@@ -1228,18 +1224,20 @@
     "neuroailab/psi-0.6": 24,
     "robot-nav/supermimic-agent-wfarm": 22,
     "kevinhenryzz/realmimic": 21,
+    "cair-vinuni/roboworm": 19,
+    "fbddcz/embodied-supermimic": 18,
+    "milarobotlearningcourse/mini-wm": 17,
+    "physical-world/physical-world-release": 17,
     "guoxun/algopilot": 3,
     "hanfeng-wu/flowsim": 1,
-    "mkhaled87/carla-e2e-harness": 1,
     "tuotuolyu/foresightsafety-vla": 86,
-    "general-sequences/sequence-ai": 58,
     "khushij2911/microvla": 24,
-    "sirwinstontea/motiq": 20,
-    "zhangy0822/cofactvla": 16,
+    "sirwinstontea/motiq": 21,
+    "general-sequences/sequence-ai": 20,
     "garfield-kh/tinyastral": 15,
     "humanoidintelligence/hirobot": 12,
     "playground-systems/playground-serve": 12,
-    "suho-yoo/vspark": 6,
+    "suho-yoo/vspark": 7,
     "humanoidintelligence/hivla": 5,
     "momoiorg-repository/urdf2vla": 4,
     "prachigarg23/self-supervised-continual-control": 4,
@@ -1247,10 +1245,8 @@
     "yulin-luo/deepvision-vla": 3,
     "blueif16/vla_final": 3,
     "aymen-000/vlaforge": 3,
-    "zhangzaibin/future-robots-eval": 3,
     "childtang/elegantvla": 2,
     "seeyooleo/cig-robocasa-kitchen": 2,
-    "bondtesty/let-it-be-simple": 2,
     "starsholic/aerorsi": 2,
     "ppyyds0330/pi05-libero10-finetuning": 2,
     "wen-hanhsieh/hdh": 1,
@@ -1262,26 +1258,27 @@
     "wenhowyu/awesome-embodied-ai-daily": 1,
     "kyrielq/vla-robot": 1,
     "jiabingyang01/aware": 1,
-    "archeone-ai/roboscript": 318,
-    "shutongliang/neural-state-os": 223,
+    "heeh02/adv-vla-research": 1,
+    "rusty-hope/nanovla": 1,
+    "archeone-ai/roboscript": 321,
+    "shutongliang/neural-state-os": 231,
     "openrobokit/roboskills": 193,
-    "agentic-intelligence-lab/cleanrua": 54,
+    "agentic-intelligence-lab/cleanrua": 63,
     "hubeiqiao/ode-muse-body": 39,
-    "xuyicheng-zju/tarsphere": 32,
-    "hebbian-robotics/rua": 30,
+    "hebbian-robotics/rua": 33,
     "mind2act/mind2act_world": 27,
     "fzptip/awesome-robot-navigation": 25,
     "livioni/tcp4d": 21,
     "hexafuture/embodiedlab": 21,
-    "thusi-lab/robodoctor": 19,
-    "wyregey779-dot/trace-annotate": 17,
     "lens-lab-ai/awesome-frontier-model-robotics": 17,
+    "plantpotatoonmoon/twopass": 16,
+    "weiwoking/lingxi-rehab-agent": 15,
+    "xlang-ai/robowild": 14,
     "12sqawdwq/flyhead": 14,
-    "plantpotatoonmoon/twopass": 12,
     "ziwu-ai/robotics-bench": 10,
     "wrencanfly/openrocode": 10,
-    "weiwoking/lingxi-rehab-agent": 10,
     "limxdynamics/awesome-limx": 9,
+    "xinyuw922-pixel/towards-reliable-vlm-judge": 8,
     "kowalskiwang/egoqc": 8,
     "zju-omniai/awesome-jev": 7,
     "fbddcz/embodied-shanhai-atlas": 7,
@@ -1290,16 +1287,17 @@
     "player0718/egoactionbench": 6,
     "zhuqinfeng1999/leash": 6,
     "aidog-im/aidog": 5,
-    "xinyuw922-pixel/towards-reliable-vlm-judge": 5,
-    "cyanseek/deepseek-whalechan-robot": 4,
+    "xlang-ai/robowild-harness": 4,
     "m0nsyuke/paperlab": 4,
     "cau-hai-lab/alfworld-para": 4,
-    "tencent/wemm-video": 41,
+    "embodied-arm-studio-fdu/embodied-arm-studio": 3,
+    "tourmii/jev-embodied-agent": 3,
     "yxwang1215/glance-etd": 9,
     "keshik6/halcyon": 6,
     "livegeoworld/geoworld": 6,
     "openraiser/coplayer": 3,
     "openraiser/studiobench": 2,
+    "bergwald/astra4robots": 1,
     "fanwei100/aim": 1,
     "yxwang1215/yxwang1215": 1,
     "akbarmohammadi70/financial-chart-llm": 1,
